@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../bower_components/editor.md/css/editormd.min.css"/>
+
+    <!-- Custom styles for this template -->
+    <link href="../views/main.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container main-window-size">
+    <div class="row clearfix">
+        <div class="col-md-2 column">
+            <div class="row clearfix">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">我的笔记</div>
+                    <ul class="list-group">
+                        <li class="list-group-item">记事本</li>
+                        <li class="list-group-item">本地</li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+
+                    <!-- List group -->
+
+                </div>
+                <div class="row clearfix ">
+                    <div class="col-md-12 ">
+
+                        <div class="dropup">
+                            <button class="btn btn-default dropdown-toggle col-md-12 " type="button" id="dropdownMenu2"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                用户:xinghuo
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 column">
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class=" navbar-brand text-center form-control" style="margin-bottom: 15px;">
+                        <span>ZNOTE</span>
+                        <div class="btn-group pull-right" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default btn-xs ">+H</button>
+                            <button type="button" class="btn btn-default btn-xs ">+M</button>
+                        </div>
+                        <!--<button type="button" class="btn btn-default btn-xs pull-right"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>M</button>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="form-group">
+                        <input type="email" placeholder="搜搜Note" class="form-control" id="inputEmail3"/>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="panel-group" id="panel-433082">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-433082"
+                                   href="#panel-element-218160">Collapsible Group Item #1</a>
+                            </div>
+                            <div id="panel-element-218160" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="panel-title" data-toggle="collapse" data-parent="#panel-433082"
+                                   href="#panel-element-227434">Collapsible Group Item #2</a>
+                            </div>
+                            <div id="panel-element-227434" class="panel-collapse in">
+                                <div class="panel-body">
+                                    Anim pariatur cliche...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7 column form-group">
+            <div class="row main-note-title form-inline form-group">
+                <div class="note-title form-horizontal">
+
+                    <input type="text" class="form-control input col-md-4 " style="width: 70%" placeholder="标题">
+                    <span class="note-title-action">
+
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default glyphicon glyphicon-pencil"></button>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <div class="row main-note-content">
+                <div id="editormd">
+                    <textarea style="display:none;">### Hello Editor.md !</textarea>
+                </div>
+            </div>
+            <span class="label label-primary">标签</span>
+
+
+        </div>
+    </div>
+</div> <!-- /container -->
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/zepto/zepto.js"></script>
+<script src="../bower_components/editor.md/editormd.min.js"></script>
+
+<script>
+    var $ = require("jquery");
+
+    var bootstrap = require("bootstrap");
+
+    var editor = editormd("editormd", {
+        height: 400,
+        toc: true,
+        emoji: true,
+        taskList: true,
+        codeFold: true,
+        watch: false,
+        flowChart: true,
+        sequenceDiagram: true,
+        toolbarIcons: function () {
+////              return editormd.toolbarModes['mini']; // full, simple, mini
+//            // Using "||" set icons align right.
+            return ["undo", "redo", "|", "bold", "hr", "||", "watch", "fullscreen", "preview", "testIcon"]
+        },
+        path: "../bower_components/editor.md/lib/",
+        onfullscreen: function () {
+            this.editor.css("border-radius", 0).css("z-index", 120);
+        },
+        onfullscreenExit: function () {
+            this.editor.css({
+                zIndex: 10,
+                border: "none",
+                "border-radius": "5px"
+            });
+            this.resize();
+        }
+    });
+    //    var editor = editormd("editormd", {
+    //        width: "",
+    //        height: "",
+    //        toc       : true,
+    //        toolbarIcons: function () {
+    ////              return editormd.toolbarModes['mini']; // full, simple, mini
+    //            // Using "||" set icons align right.
+    //            return ["undo", "redo", "|", "bold", "hr", "|", "preview", "watch", "|", "fullscreen", "info", "testIcon", "testIcon2", "file", "faicon", "||", "watch", "fullscreen", "preview", "testIcon"]
+    //        },
+    //        todoList  : true,
+    //        path: "../bower_components/editor.md/lib/" // Autoload modules mode, codemirror, marked... dependents libs path
+    //    });
+</script>
+
+
+</body>
+</html>

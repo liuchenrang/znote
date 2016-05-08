@@ -1,0 +1,32 @@
+<script>
+    const ipcMain = require("electron").ipcMain;
+    var user = require('../service/user');
+    var render = require('../service/render');
+    var $ = require("jquery");
+    var fs = require('fs');
+    var Vue = require('vue');
+    var EventEmitter = require('events').EventEmitter;
+    var event = new EventEmitter();
+    function writeFile() {
+        const ipcRenderer = require('electron').ipcRenderer;
+        ipcRenderer.send('asynchronous-message', 'ping');
+        alert($('#inputPassword').val());
+
+    }
+
+    render.view('./views/login.twig',{name:'xinghuo'},function(){
+        $('.btn').on('click',writeFile);
+
+        var demo = new Vue({
+            el: '#demo',
+            data: {
+                message: 'Hello Vue.js!'
+            }
+        })
+    })
+
+
+
+
+
+</script>

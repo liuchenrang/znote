@@ -1,0 +1,12 @@
+.main-window-size{
+    width: 1000px;
+    margin-top:20px;
+}
+.user-account-info{
+    float:right;
+}
+
+.main-note-content{
+    width: auto;
+    height: auto;
+}
