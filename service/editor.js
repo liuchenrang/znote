@@ -10,11 +10,10 @@ const eventEmitter = new events.EventEmitter();
 
 function Editor(modelNote){
 
-    this.modleNote = modelNote;
     this.initOnEvent();
     this.note_title_id =  '#note-title';
     this.note_source_id =  '#note-source';
-    this.initView()
+    this.initView(modelNote)
 
 }
 util.inherits(Editor, events.EventEmitter);
@@ -26,7 +25,8 @@ Editor.prototype.initOnEvent = function(){
         console.log(id)
     })
 }
-Editor.prototype.initView = function(){
+Editor.prototype.initView = function(note){
+    this.modleNote = note;
     this.setTitle()
     this.setSource()
 }
@@ -45,6 +45,7 @@ Editor.prototype.setTitle = function(){
 }
 
 Editor.prototype.setSource = function(){
+    console.log('source:' + this.modleNote.source)
     $(this.note_source_id).val( this.modleNote.source );
 }
 

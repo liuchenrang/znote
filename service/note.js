@@ -10,6 +10,8 @@ const vue = require('vue');
 const events = require('events');
 const $ = require('jquery');
 const eventEmitter = new events.EventEmitter();
+const Logger = require('../utils/logger').Logger;
+const logger = new Logger();
 
 function Note() {
     this.storage = storage;
@@ -55,10 +57,14 @@ function Note() {
         db.note.find({_id:data},function(err,rows){
             self.emit('onNoteFindByKey',rows)
             if (callback) {
-                console.log("id:"+data)
-                console.log(rows)
-                mainWindow.editor.modleNote = rows[0];
-                mainWindow.editor.initView(rows[0]);
+                callback(err,rows)
+            }
+        });
+    };
+    this.update = function(id,data, callback){
+        db.note.update({_id:id},data,{upsert:true,multi:false},function(err,rows){
+            self.emit('onNoteUpdateByKey',rows)
+            if (callback) {
                 callback(err,rows)
             }
         });
@@ -75,17 +81,25 @@ Note.prototype.initOnEvent = function(){
     var callback = function(){
         self.refreshList();
     }
-    self.on('onNoteItemClick', function (id) {
-        self.find(id,function(rows){
+    self.on('onNoteItemClick', self.onNoteItemClick)
+    self.on('onNoteAdd', callback );
+    self.on('onNoteDelete', callback );
+    self.on('onNoteLoad', callback ) ;
+    self.on('renderNoteList', this.doRender);
 
-        });
-    })
-    this.on('onNoteAdd', callback );
-    this.addListener('onNoteDelete', callback );
-    this.addListener('onNoteLoad', callback ) ;
-    this.addListener('renderNoteList', this.doRender);
+}
+Note.prototype.onNoteItemClick = function(id){
+    var self = this;
+    self.find(id,function(err,rows){
+        logger.info("service.note","onNoteItemClick Find Callback")
 
+        if (!err) {
+            mainWindow.reloadNode(rows[0]);
+        }else{
+            console.log(err)
+        }
 
+    });
 }
 Note.list = []
 Note.prototype.doRender = function(docs){
@@ -94,10 +108,10 @@ Note.prototype.doRender = function(docs){
     this.vue.items = docs;
 }
 Note.prototype.refreshList = function(){
-    var cthis = this;
+    var self = this;
     this.storage.note.find({}, function (err, docs) {
         //this.list = docs;
-        cthis.emit('renderNoteList',docs)
+        self.emit('renderNoteList',docs)
     });
 }
 

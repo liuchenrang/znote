@@ -9,6 +9,8 @@ const storage = require('../service/storage');
 const vue = require('vue');
 const events = require('events');
 const $ = require('jquery');
+const Logger = require('../utils/logger').Logger;
+const logger = new Logger();
 
 function Category() {
     this.container_id = '#note-cate';
@@ -60,28 +62,28 @@ Category.prototype.initEmitEvent = function() {
     this.emit('onCateLoad');
 }
 Category.prototype.initOnEvent = function(){
-    var dthis = this;
+    var self = this;
     var callback = function(){
-        dthis.refreshList();
+        self.refreshList();
     }
 
-    this.addListener('onCateAdd', callback );
-    this.addListener('onCateDelete', callback );
-    this.addListener('onCateLoad', callback ) ;
-    this.addListener('renderCategory', this.doRender);
-
+    self.on('onCateAdd', callback );
+    self.on('onCateDelete', callback );
+    self.on('onCateLoad', callback ) ;
+    self.on('renderCategory', this.doRender);
 
 }
 Category.list = []
 Category.prototype.doRender = function(docs){
-    console.log('doRender',docs)
+    logger.info('Category','doRender')
     this.vue.items = docs;
 }
 Category.prototype.refreshList = function(){
-    var cthis = this;
+    var self = this;
+
     this.storage.category.find({}, function (err, docs) {
         //this.list = docs;
-        cthis.emit('renderCategory',docs)
+        self.emit('renderCategory',docs)
     });
 }
 

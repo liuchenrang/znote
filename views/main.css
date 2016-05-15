@@ -1,12 +1,28 @@
 .main-window-size{
-    width: 1000px;
-    margin-top:20px;
+    overflow: hidden;
+    border: #ff512e  solid;
+    margin: 0px;
+    width:1000px;
 }
 .user-account-info{
-    float:right;
+    bottom:0px;
 }
 
 .main-note-content{
     width: auto;
     height: auto;
+}
+.main-note-list{
+    overflow-x:scroll;
+    max-height:415px;
+
+}
+.editor-height{
+    height: 550px;
+}
+
+.col-md-height{
+    height: 550px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }

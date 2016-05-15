@@ -26,7 +26,7 @@ ipcMain.on('asynchronous-message', function(event, arg) {
 // initialization and is ready to create browser windows.
 app.on('ready', function() {
     // Create the browser window.
-    mainWindow = new BrowserWindow({width: 1000, height: 600});
+    mainWindow = new BrowserWindow({width: 1000, height: 580});
 
     // and load the index.html of the app.
     mainWindow.loadURL('file://' + __dirname + '/windows/main.html');

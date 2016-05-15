@@ -10,30 +10,51 @@ var note = new service.Note();
 var testEditor;
 
 //    var bootstrap = require("bootstrap");
-//    var Vue = require('vue');
 
 function Main() {
+    this.testEditor = {};
     this.note = new models.Note();
     this.note.category_id = category.getSelected();
-
+    this.note_create_markdown_id = '#note-create-markdown';
     this.editor = new service.Editor(this.note);
 
-    this.createNewNote = function(){
-        this.node = new models.Note();
+    this.createNewNote = function () {
+        this.note = new models.Note();
+        console.log(note);
+        this.reloadNode(this.note);
     }
-    this.loadEditor = function(){
-        $()
+    this.reloadNode = function (note) {
+        this.note = note;
+        this.editor.initView(note);
+
+
+        if (note.source == '' && mainWindow.testEditor.state.preview) {
+            this.testEditor.previewing();
+            this.testEditor.setMarkdown(note.source);
+        }else{
+            this.testEditor.setMarkdown(note.source);
+            if (!mainWindow.testEditor.state.preview) {
+                this.testEditor.previewing();
+            }
+
+
+        }
+
     }
     this.run = function () {
         console.log("run")
+        var self = this;
+        $(this.note_create_markdown_id).click(function(){
+            self.createNewNote();
+        })
         $(function () {
-            testEditor = editormd("edmd", {
-                height: 400,
+            self.testEditor = editormd("edmd", {
+                height: (550-65),
 //        toc: true,
 //        emoji: true,
 //        taskList: true,
 //        codeFold: true,
-//        watch: false,
+                watch: false,
 //        flowChart: true,
 //        sequenceDiagram: true,
                 saveHTMLToTextarea: true,
@@ -62,13 +83,24 @@ function Main() {
                                 alert("请填写标题!")
                                 return false;
                             }
-                            note.add({
-                                title: $('#note-title').val(),
-                                source: testEditor.getMarkdown(),
-                                content: testEditor.getHTML(),
-                                type: 1,
-                                category_id: category.getSelected(),
-                            })
+                            self.note.title = $('#note-title').val();
+                            self.note.source = testEditor.getMarkdown();
+                            self.note.content = testEditor.getHTML();
+                            self.note.category_id = category.getSelected();
+                            self.note.type = 1;
+                            self.note.tag = [];
+                            console.log(self.note);
+                            console.log(self.note._id);
+                            if (self.note._id) {
+                                note.update(self.note._id, self.note, function (err, rows) {
+                                    console.log(err, rows);
+                                })
+                            } else {
+                                note.add(self.note, function (err, rows) {
+                                    console.log(err, rows);
+                                })
+                            }
+
                         },
                         "Ctrl-A": function (cm) { // default Ctrl-A selectAll
                             // custom
