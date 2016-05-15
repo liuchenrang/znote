@@ -29,7 +29,7 @@
 
 <body>
 
-<div class="container main-window-size">
+<div class="container main-window">
     <div class="row clearfix">
         <div class="col-md-2 col-md-height">
             <div class="row ">
@@ -82,14 +82,14 @@
             <div class="row clearfix">
                 <div class="col-md-12 column">
                     <div class="form-group">
-                        <input type="email" placeholder="搜搜Note" class="form-control" id="inputEmail3"/>
+                        <input type="email"  placeholder="搜搜Note" class="form-control" id="note-search-input"/>
                     </div>
 
                 </div>
             </div>
             <div class="row clearfix">
-                <div class="col-md-12 column">
-                    <div class="panel-group main-note-list" id="note-list">
+                <div class="col-md-12 main-note-list">
+                    <div class="panel-group " id="note-list">
                         <template v-for="item in items">
 
                             <div class="panel panel-default">
@@ -98,8 +98,8 @@
                                        data-parent="#panel-{{ item._id }}"
                                        href="javascript:;">{{ item.title }}</a>
                                 </div>
-                                <div id="panel-element-{{ item._id }}" style="width:90%;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;-o-text-overflow:ellipsis;" class="panel-collapse collapse in">
-                                    <div class="panel-body">
+                                <div id="panel-element-{{ item._id }}" class="panel-collapse collapse in">
+                                    <div class="panel-body" style="width:90%;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" >
                                         {{ item.source }}
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                     <!--</span>-->
                 </div>
             </div>
-            <div class="row main-note-content">
+            <div class="row main-note-content col-md-height">
                 <div id="edmd">
                     <textarea id="note-source" style="display:none;">#### Using FlowChart
 

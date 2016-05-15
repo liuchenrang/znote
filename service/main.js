@@ -2,26 +2,41 @@
  * Created by XingHuo on 16/5/14.
  */
 
-var bootstrap = require("bootstrap");
-var service = require("../service");
-var models = require("../models");
+const bootstrap = require("bootstrap");
+const service = require("../service");
+const models = require("../models");
 const category = new service.Category();
-var note = new service.Note();
+const note = new service.Note();
+const Logger = require('../utils/logger').Logger;
+const logger = new Logger();
 var testEditor;
-
-//    var bootstrap = require("bootstrap");
 
 function Main() {
     this.testEditor = {};
     this.note = new models.Note();
     this.note.category_id = category.getSelected();
     this.note_create_markdown_id = '#note-create-markdown';
+    this.note_search_input_id = '#note-search-input';
     this.editor = new service.Editor(this.note);
 
     this.createNewNote = function () {
         this.note = new models.Note();
         console.log(note);
         this.reloadNode(this.note);
+    }
+    this.searchNode = function () {
+        var self = this;
+        $(this.note_search_input_id).keyup(function(){
+            var keyword = $(self.note_search_input_id).val();
+            logger.info("main",'keyword:' + keyword);
+            logger.info("main",{title:new RegExp(keyword)});
+            var search = {}
+            if (keyword) {
+                search = {title:new RegExp(keyword)}
+            }
+            note.search(search,function(err,docs){
+            })
+        })
     }
     this.reloadNode = function (note) {
         this.note = note;
@@ -47,9 +62,9 @@ function Main() {
         $(this.note_create_markdown_id).click(function(){
             self.createNewNote();
         })
+        this.searchNode();
         $(function () {
             self.testEditor = editormd("edmd", {
-                height: (550-65),
 //        toc: true,
 //        emoji: true,
 //        taskList: true,
@@ -103,22 +118,11 @@ function Main() {
 
                         },
                         "Ctrl-A": function (cm) { // default Ctrl-A selectAll
-                            // custom
-                            alert("Ctrl+A");
                             cm.execCommand("selectAll");
                         }
                     };
 
-                    // setting signle key
-                    var keyMap2 = {
-                        "Ctrl-T": function (cm) {
-                            alert("Ctrl+T");
-                        }
-                    };
-
                     this.addKeyMap(keyMap);
-                    this.addKeyMap(keyMap2);
-                    this.removeKeyMap(keyMap2);  // remove signle key
                 }
             });
 

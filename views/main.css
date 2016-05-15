@@ -1,6 +1,7 @@
-.main-window-size{
+.main-window{
     overflow: hidden;
     border: #ff512e  solid;
+    /*border: 1px solid #c0c0c0;*/
     margin: 0px;
     width:1000px;
 }
@@ -14,15 +15,13 @@
 }
 .main-note-list{
     overflow-x:scroll;
-    max-height:415px;
+    /*height: 600-(65+49);*/
+    height: 490px;
+}
 
-}
-.editor-height{
-    height: 550px;
-}
 
 .col-md-height{
-    height: 550px;
+    height: 600px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }

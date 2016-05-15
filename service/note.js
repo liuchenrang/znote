@@ -9,18 +9,19 @@ const storage = require('../service/storage');
 const vue = require('vue');
 const events = require('events');
 const $ = require('jquery');
-const eventEmitter = new events.EventEmitter();
+
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
 
 function Note() {
+    var self = this;
+
     this.storage = storage;
     events.EventEmitter.call(this);
 
     this.initOnEvent();
     this.initEmitEvent();
 
-    var self = this;
     this.vue =  new vue({
         el: '#note-list',
         data: {
@@ -45,7 +46,6 @@ function Note() {
         });
     }
     this.delete = function(data, callback){
-        var self = this;
         db.note.remove(data,function(err,rows){
             self.emit('onNoteDelete',rows)
             if (callback) {
@@ -56,6 +56,18 @@ function Note() {
     this.find = function(data, callback){
         db.note.find({_id:data},function(err,rows){
             self.emit('onNoteFindByKey',rows)
+            if (callback) {
+                callback(err,rows)
+            }
+        });
+    };
+    this.search = function(data, callback){
+        logger.info("Note",'serach ' + data)
+        db.note.find(data,function(err,rows){
+            self.emit('onNoteFindBySearch',rows)
+            logger.info("Note",'serachResult ' + rows)
+            logger.info("Note",rows)
+
             if (callback) {
                 callback(err,rows)
             }
@@ -83,6 +95,10 @@ Note.prototype.initOnEvent = function(){
     }
     self.on('onNoteItemClick', self.onNoteItemClick)
     self.on('onNoteAdd', callback );
+    self.on('onNoteFindBySearch', function(docs){
+        self.emit('renderNoteList',docs);
+
+    } );
     self.on('onNoteDelete', callback );
     self.on('onNoteLoad', callback ) ;
     self.on('renderNoteList', this.doRender);
