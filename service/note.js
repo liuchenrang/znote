@@ -63,7 +63,7 @@ function Note() {
     };
     this.search = function(data, callback){
         logger.info("Note",'serach ' + data)
-        db.note.find(data,function(err,rows){
+        db.note.find(data).sort({ updated_at: -1 }).exec(function(err,rows){
             self.emit('onNoteFindBySearch',rows)
             logger.info("Note",'serachResult ' + rows)
             logger.info("Note",rows)
@@ -74,6 +74,7 @@ function Note() {
         });
     };
     this.update = function(id,data, callback){
+        data.updated_at = +new Date();
         db.note.update({_id:id},data,{upsert:true,multi:false},function(err,rows){
             self.emit('onNoteUpdateByKey',rows)
             if (callback) {
@@ -125,7 +126,7 @@ Note.prototype.doRender = function(docs){
 }
 Note.prototype.refreshList = function(){
     var self = this;
-    this.storage.note.find({}, function (err, docs) {
+    this.storage.note.find({}).sort({ updated_at: -1 }).exec( function (err, docs) {
         //this.list = docs;
         self.emit('renderNoteList',docs)
     });

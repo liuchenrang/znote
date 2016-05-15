@@ -14,6 +14,7 @@ var testEditor;
 function Main() {
     this.testEditor = {};
     this.note = new models.Note();
+    this.category = category;
     this.note.category_id = category.getSelected();
     this.note_create_markdown_id = '#note-create-markdown';
     this.note_search_input_id = '#note-search-input';
@@ -99,18 +100,24 @@ function Main() {
                                 return false;
                             }
                             self.note.title = $('#note-title').val();
-                            self.note.source = testEditor.getMarkdown();
-                            self.note.content = testEditor.getHTML();
-                            self.note.category_id = category.getSelected();
+                            self.note.source = self.testEditor.getMarkdown();
+                            self.note.content = self.testEditor.getHTML();
+                            var category_id = category.getSelected();
+                            if (category_id) {
+                                self.note.category_id = category.getSelected();
+                            }
                             self.note.type = 1;
                             self.note.tag = [];
                             console.log(self.note);
                             console.log(self.note._id);
                             if (self.note._id) {
+                                logger.info('main','update id: ' + self.note._id)
                                 note.update(self.note._id, self.note, function (err, rows) {
                                     console.log(err, rows);
                                 })
                             } else {
+                                logger.info('main','add  ' + self.note.title)
+
                                 note.add(self.note, function (err, rows) {
                                     console.log(err, rows);
                                 })
