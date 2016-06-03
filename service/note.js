@@ -9,6 +9,7 @@ const storage = require('../service/storage');
 const vue = require('vue');
 const events = require('events');
 const $ = require('jquery');
+const BootstrapMenu = require('bootstrap-menu');
 
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
@@ -25,13 +26,34 @@ function Note() {
     this.vue =  new vue({
         el: '#note-list',
         data: {
-            items: []
+            note_items: []
         },
         methods: {
             click: function (event) {
-                self.emit('onNoteItemClick',$(event.target).data('id'));
+                self.emit('onNoteItemClick',$(event.target).parent().parent().data('id'));
                 $(event.target).parent().children().removeClass('active');
                 $(event.target).addClass('active');
+            },
+            click_more:function(event){
+                var id = $(event.target).parent().parent().data('id');
+                var menu = new BootstrapMenu('.note-item-btn-more', {
+                    menuEvent: 'click',
+                    menuSource: 'element',
+                    actions: [{
+                        name: '删除',
+                        onClick: function(tg) {
+                            console.log(id)
+                            self.update(id,{'delete_at':+new Date()});
+                            // run when the action is clicked
+                        }
+                    }, {
+                        name: '移动',
+                        onClick: function() {
+                            // run when the action is clicked
+                        }
+                    }]
+                });
+
             }
         }
     })
@@ -76,8 +98,11 @@ function Note() {
     this.update = function(id,data, callback){
         data.updated_at = +new Date();
         db.note.update({_id:id},data,{upsert:true,multi:false},function(err,rows){
+            logger.info('emit onNoteUpdateByKey')
             self.emit('onNoteUpdateByKey',rows)
             if (callback) {
+                self.vue.note_items.push(rows)
+
                 callback(err,rows)
             }
         });
@@ -87,21 +112,22 @@ function Note() {
 util.inherits(Note, events.EventEmitter);
 
 Note.prototype.initEmitEvent = function() {
-    this.emit('onNoteAdd');
+    this.emit('onNoteInit');
 }
 Note.prototype.initOnEvent = function(){
     var self = this;
     var callback = function(){
+
         self.refreshList();
     }
     self.on('onNoteItemClick', self.onNoteItemClick)
     self.on('onNoteAdd', callback );
     self.on('onNoteFindBySearch', function(docs){
         self.emit('renderNoteList',docs);
-
     } );
     self.on('onNoteDelete', callback );
-    self.on('onNoteLoad', callback ) ;
+    self.on('onNoteUpdateByKey', callback );
+    self.on('onNoteInit', callback ) ;
     self.on('renderNoteList', this.doRender);
 
 }
@@ -122,12 +148,16 @@ Note.list = []
 Note.prototype.doRender = function(docs){
     Note.list = docs;
     console.log('doRender',docs)
-    this.vue.items = docs;
+    this.vue.note_items = docs;
 }
 Note.prototype.refreshList = function(){
     var self = this;
-    this.storage.note.find({}).sort({ updated_at: -1 }).exec( function (err, docs) {
+    logger.info('do refreshList');
+    this.storage.note.find({delete_at:0}).sort({ updated_at: -1 }).exec( function (err, docs) {
         //this.list = docs;
+        logger.info('do renderNoteList');
+        console.log(docs);
+
         self.emit('renderNoteList',docs)
     });
 }

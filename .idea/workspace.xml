@@ -2,27 +2,998 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb9a6cb-e7de-4681-baa9-bd74a0cd1485" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo" afterPath="$PROJECT_DIR$/demo" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/devserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/release/flowchart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/release/flowchart.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/release/flowchart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/release/flowchart.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/releasenotes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.condition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.inputoutput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.operation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.subroutine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/src/jquery-plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/flowchart/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.mailmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/release.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/release/cdn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/release/dist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/release/ensure-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/dist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/install_old_jsdom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/lib/spawn_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/node_smoke_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/promises_aplus_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/sourcemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/build/tasks/testswarm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/npo/npo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit-assert-step/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit-assert-step/qunit-assert-step.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/qunit/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/requirejs/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/sinon/sinon-1.14.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/1x1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/ajax/content-type.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/ajax/evalScript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/ajax/method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/ajax/onunload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/ajax/unreleasedXHR.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/atom+xml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/badcall.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/badjson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/cleanScript.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/core/aliased.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/core/cc_on.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/core/dont_return.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/core/dynamic_ready.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/core/onready.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/css/cssWidthBeforeDocReady.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/dashboard.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/data/dataAttrs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/dimensions/documentLarge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/echoData.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/echoQuery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/errorWithJSON.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/errorWithText.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/etag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/focusElem.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/focusinCrossFrame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/interactiveReady.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/longLoadScript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/onbeforeunload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/promiseReady.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/syncReady.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/event/triggerunload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/headers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/if_modified_since.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/jquery-1.9.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/json_obj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/jsonp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/manipulation/iframe-denied.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/name.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/name.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/nocontent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/absolute.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/body.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/relative.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/static.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/offset/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/params_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/readywaitasset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/readywaitloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/script.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/selector/html5_selector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/selector/sizzle_cache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/statusText.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/bodyBackground.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/csp-clean.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/csp-log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/csp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/csp.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/csp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/support/getComputedSupport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/test2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/test3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/testbar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/testinit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/testrunner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/testsuite.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/with_fries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/data/with_fries_over_jsonp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/delegatetest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/hovertest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/integration/data/gh-1764-fullscreen-iframe.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/integration/data/gh-1764-fullscreen-iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/integration/data/gh-1764-fullscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/integration/gh-1764-fullscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/integration/gh-2343-ie-radio-click.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/localfile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/networkerror.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/document_missing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/document_passed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/document_present_originally.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/iterable_with_native_symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/iterable_with_symbol_polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/lib/ensure_global_not_created.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/lib/ensure_iterability_es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/node_smoke_tests/lib/ensure_jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/promises_aplus_adapter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/readywait.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/exports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/unit/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/jQuery/test/xhtml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower_components/zepto/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/eye" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/logger-node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/twigjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.tern-project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/acorn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/build-acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/generate-identifier-regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/prepublish.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/update_authors.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/bin/without_eval" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/dist/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/dist/acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/dist/acorn_csp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/dist/acorn_loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/dist/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/acorn_loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/loose/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/lval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/tokencontext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/tokentype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/walk/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/acorn/1.2.2/acorn/src/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/ber/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/ber/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/ber/reader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/ber/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/ber/writer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/tst/ber/reader.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/asn1/0.2.3/asn1/tst/ber/writer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/lib/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/0.2.10/async/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/dist/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/dist/async.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/lib/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/async/1.5.2/async/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/.tern-port" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/aws4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/aws4/1.3.2/aws4/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/base62.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/base62/0.1.1/base62/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/bl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bl/1.1.2/bl/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/CHANGES.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/bin/blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/blade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/doctypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/parser/blade-grammar.pegjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/parser/build.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/parser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/self-closing-tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/node_modules/.bin/uglifyjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/plugins/definePropertyIE8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/plugins/liveui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/syntax-highlighting/notepad++.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/locals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/attributes2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/attributes_ids_classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/attributes_interpolation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/attributes_multi_line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/blank_lines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/block-comment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/blocks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/blocks2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/blocks3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/code_multiline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/doctype.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/event_handlers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/exposing_child.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/exposing_parent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/factorial.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/foreach.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/functions2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/functions_and_block.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/functions_and_block_include.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/include.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/include2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/include_in_func.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/include_in_replace_block.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/included.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/interpolate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/interpolate2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/layer1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/layer2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/layer3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/layer3_render.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/liveui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/many_doctypes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/tag_whitespace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/tags.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/output/text_blocks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/single.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/attributes2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/attributes_ids_classes.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/attributes_interpolation.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/attributes_multi_line.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/blank_lines.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/block-comment.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/blocks.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/blocks2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/blocks3.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/code.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/code_multiline.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/comments.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/doctype.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/event_handlers.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/exposing_child.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/exposing_parent.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/factorial.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/filters.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/foreach.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/functions.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/functions2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/functions_and_block.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/functions_and_block_include.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_func.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_replace_block.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_replace_block/block_content.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_replace_block/block_def.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_replace_block/replace_block.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/include_in_replace_block/replace_block_include.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/included.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/interpolate.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/interpolate2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/layer1.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/layer2.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/layer3.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/layer3_render.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/liveui.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/many_doctypes.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/tag_whitespace.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/tags.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/templates/text_blocks.blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/blade/3.3.0/blade/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/images/boom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/boom/2.10.1/boom/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/copy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/read.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/subarray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/copy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/read.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/subarray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/test/write.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/copy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/mapped.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/read.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/subarray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/to.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/typedarray/write.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/bops/0.0.6/bops/write.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/chalk/1.1.3/chalk/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/chalk/1.1.3/chalk/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/chalk/1.1.3/chalk/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/chalk/1.1.3/chalk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/chalk/1.1.3/chalk/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cliui/2.1.0/cliui/test/cliui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/ReadMe.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/colors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/themes/winston-dark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/colors/0.6.2/colors/themes/winston-light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/README.mdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSFontFaceRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSImportRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSKeyframeRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSKeyframesRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSMediaRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSStyleDeclaration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSStyleRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/CSSStyleSheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/MediaList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/StyleSheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/clone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.2.5/cssom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/README.mdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSDocumentRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSFontFaceRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSImportRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSKeyframeRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSKeyframesRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSMediaRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSStyleDeclaration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSStyleRule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSStyleSheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSValue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/CSSValueExpression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/MatcherList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/MediaList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/StyleSheet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/clone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/cssom/0.3.1/cssom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/es3ify/0.1.4/es3ify/spec/es3ifyspec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/.jscs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/extend/3.0.0/extend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/LICENSE-MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/bin/eye" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/test/cli.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/test/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/test/longTask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/test/task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eye/0.0.3/eye/test/task2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/LICENSE-MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/benchmarks/gaze100s.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/lib/gaze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/add_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/api_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/Project (LO)/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/nested/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/nested/sub/two.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/nested/sub2/two.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/nested/three.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/sub/one.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/fixtures/sub/two.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/matching_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/patterns_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/relative_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/rename_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/safewrite_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/gaze/0.3.4/gaze/test/watch_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/examples/g.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/examples/usr-local.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/glob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/00-setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/bash-comparison.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/bash-results.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/cwd-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/globstar-match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/mark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/new-glob-optional-options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/nocase-nomagic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/pause-resume.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/readme-issue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/root-nomount.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/root.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/stat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/glob/3.2.11/glob/test/zz-cleanup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/dist/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/example/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/images/hawk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/crypto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/crypto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/readme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/uri.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hawk/3.1.3/hawk/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/images/hoek.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/lib/escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/escaper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/modules/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/modules/test1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/modules/test2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/hoek/2.16.3/hoek/test/modules/test3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/LICENSE-MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/grunt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/lib/node-jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/src/wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/fixtures/core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/fixtures/css.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/fixtures/css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/test/helpers/helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jquery/1.7.3/jquery/tmp/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsbn/0.1.0/jsbn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/browser/documentfeatures.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/browser/domtohtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/browser/htmlencoding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/browser/htmltodom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/browser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level1/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/languages/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level2/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/ls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/level3/xpath.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/selectors/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/selectors/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/lib/jsdom/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/jsdom/0.2.19/jsdom/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/dist/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/dist/lie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/dist/lie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/dist/lie.polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/dist/lie.polyfill.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/license.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/test/cover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/lie/3.0.2/lie/test/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/.build.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/asyncworker.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/buffers.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/callback.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/converters.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/errors.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/maybe_types.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/methods.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/new.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/node_misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/object_wrappers.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/persistent.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/scopes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/script.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/string_bytes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/v8_internals.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/doc/v8_misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/include_dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_callbacks.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_callbacks_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_callbacks_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_converters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_converters_43_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_converters_pre_43_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_implementation_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_implementation_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_maybe_43_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_maybe_pre_43_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_new.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_object_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_persistent_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_persistent_pre_12_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_string_bytes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_typedarray_contents.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/nan_weak.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/tools/1to2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/tools/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nan/2.2.1/nan/tools/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nedb/1.8.0/nedb/node_modules/.bin/mkdirp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/dist/qs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/lib/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/qs/6.1.0/qs/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/examples/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/examples/time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sntp/1.0.9/sntp/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/bin/sshpk-conv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/bin/sshpk-sign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/bin/sshpk-verify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/algs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/dhe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/ed-compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/errors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/fingerprint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/auto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/pem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/pkcs1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/pkcs8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/rfc4253.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/ssh-private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/formats/ssh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/private-key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/signature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/ssh-buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/man/man1/sshpk-conv.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/man/man1/sshpk-sign.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/man/man1/sshpk-verify.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/sshpk/1.8.2/sshpk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/180.patch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/bin/twigjs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/docco.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/licenses.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/aller-light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/novecento-bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/novecento-bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/novecento-bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/roboto-black.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/roboto-black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/fonts/roboto-black.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/public/stylesheets/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/release checklist.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/tests.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/twig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Compiling-Templates.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Contributing.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Express-2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Extending-twig.js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Home.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/docs/wiki/Implementation-Notes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/lib/compile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/lib/paths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/test-ext/checkout.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/test-ext/test.original.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/test.async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/twig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/twig.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/twig/0.8.9/twig/twig.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/dist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/dist/vue.common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/dist/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/dist/vue.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/node_modules/.bin/envify" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/batcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/compiler/compile-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/compiler/compile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/compiler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/compiler/resolve-slots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/compiler/transclude.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/element/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/element/partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/element/slot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/style.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/internal/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/priorities.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/cloak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/if.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/model/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/model/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/model/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/model/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/model/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/on.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/directives/public/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/filters/array-filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/filters/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/fragment/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/fragment/fragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/global-api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/api/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/api/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/api/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/api/lifecycle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/internal/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/internal/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/internal/lifecycle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/internal/misc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/internal/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/instance/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/observer/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/observer/dep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/observer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/parsers/directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/parsers/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/parsers/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/parsers/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/parsers/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/transition/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/transition/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/transition/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/env.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/lang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/util/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.21/vue/src/watcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/lib/node-type-emitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/lib/walk-async-only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/lib/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/walk/2.3.9/walk/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/immutable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/mutable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/4.0.1/xtend/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/.npminstall.done" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/completion.sh.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/lib/completion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/lib/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/lib/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.npminstall/yargs/3.10.0/yargs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/angular" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eve" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eye" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/log4js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zepto" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nedb/1.8.0/nedb/node_modules/async" afterPath="$PROJECT_DIR$/node_modules/.npminstall/nedb/1.8.0/nedb/node_modules/async" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/async" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/async" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/jquery" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/jquery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/jstransform" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/jstransform" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/minimist" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/minimist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/semver" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/vue" afterPath="$PROJECT_DIR$/node_modules/.npminstall/node_modules/vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery" afterPath="$PROJECT_DIR$/node_modules/jquery" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue" afterPath="$PROJECT_DIR$/node_modules/vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/category.db" afterPath="$PROJECT_DIR$/database/category.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/notes.db" afterPath="$PROJECT_DIR$/database/notes.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/.gitignore" afterPath="$PROJECT_DIR$/demo/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/data/version" afterPath="$PROJECT_DIR$/demo/data/version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/login.html" afterPath="$PROJECT_DIR$/demo/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/node_modules/file.js" afterPath="$PROJECT_DIR$/demo/node_modules/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/note.html" afterPath="$PROJECT_DIR$/demo/note.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/css/index.css" afterPath="$PROJECT_DIR$/demo/public/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/css/index.less" afterPath="$PROJECT_DIR$/demo/public/css/index.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/js/app/page.js" afterPath="$PROJECT_DIR$/demo/public/js/app/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/langs/en-us.js" afterPath="$PROJECT_DIR$/demo/public/langs/en-us.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/langs/zh-cn.js" afterPath="$PROJECT_DIR$/demo/public/langs/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/langs/zh-hk.js" afterPath="$PROJECT_DIR$/demo/public/langs/zh-hk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/libs/ace/ace.js" afterPath="$PROJECT_DIR$/demo/public/libs/ace/ace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/public/plugins/export_html/plugin.js" afterPath="$PROJECT_DIR$/demo/public/plugins/export_html/plugin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/note.js" afterPath="$PROJECT_DIR$/models/note.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/envify/3.4.0/envify/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall/envify/3.4.0/envify/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/eve/0.5.0/eve/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall/eve/0.5.0/eve/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/nedb/1.8.0/nedb/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall/nedb/1.8.0/nedb/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/xtend/2.1.2/xtend/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall/xtend/2.1.2/xtend/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.npminstall/zepto/1.0.1/zepto/.npminstall.done" afterPath="$PROJECT_DIR$/node_modules/.npminstall/zepto/1.0.1/zepto/.npminstall.done" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/category.js" afterPath="$PROJECT_DIR$/service/category.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/main.js" afterPath="$PROJECT_DIR$/service/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/note.js" afterPath="$PROJECT_DIR$/service/note.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.css" afterPath="$PROJECT_DIR$/views/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows/main.html" afterPath="$PROJECT_DIR$/windows/main.html" />
     </list>
     <ignored path="desktop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,17 +1009,44 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="desktop" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="category.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5427873">
-              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+            <state vertical-scroll-proportion="-5.962963">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.730769">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/nedb/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,10 +1055,23 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7777777">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="17.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootstrapMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-menu/src/BootstrapMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="42.555557">
+              <caret line="290" column="26" selection-start-line="290" selection-start-column="12" selection-end-line="290" selection-end-column="26" />
+              <folding>
+                <marker date="1462975710000" expanded="true" signature="2180:2212" placeholder="..." />
+                <marker date="1462975710000" expanded="true" signature="2271:2317" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -76,43 +1087,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/tags.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/notes.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="286" selection-start-line="6" selection-start-column="286" selection-end-line="6" selection-end-column="286" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="note.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/note.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#Note#0" expanded="false" />
               </folding>
@@ -123,9 +1102,10 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/windows/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3207547">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -135,24 +1115,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="note.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="note.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/note.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5555553">
-              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.8215223">
+              <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tag.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/tag.js">
+      <file leaf-file-name="notes.db" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/notes.db">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc;n#Tag#0" expanded="false" />
-              </folding>
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,15 +1167,15 @@
         <option value="$PROJECT_DIR$/test/testLogger.js" />
         <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/views/main.css" />
-        <option value="$PROJECT_DIR$/windows/main.html" />
         <option value="$PROJECT_DIR$/test/TestDb.js" />
+        <option value="$PROJECT_DIR$/database/category.db" />
+        <option value="$PROJECT_DIR$/views/main.css" />
         <option value="$PROJECT_DIR$/models/note.js" />
         <option value="$PROJECT_DIR$/database/notes.db" />
-        <option value="$PROJECT_DIR$/service/note.js" />
-        <option value="$PROJECT_DIR$/database/category.db" />
-        <option value="$PROJECT_DIR$/service/main.js" />
         <option value="$PROJECT_DIR$/service/category.js" />
+        <option value="$PROJECT_DIR$/service/main.js" />
+        <option value="$PROJECT_DIR$/windows/main.html" />
+        <option value="$PROJECT_DIR$/service/note.js" />
       </list>
     </option>
   </component>
@@ -240,6 +1218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,7 +1337,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -370,15 +1348,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service" />
+      <recent name="$PROJECT_DIR$/bower_components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/service" />
       <recent name="$PROJECT_DIR$/bower_components/flowchart" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/service" />
-      <recent name="$PROJECT_DIR$/bower_components" />
     </key>
   </component>
   <component name="RunManager">
@@ -428,14 +1406,14 @@
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -479,37 +1457,135 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/log4js/examples/example.js">
+    <entry file="file://$PROJECT_DIR$/database/notes.db">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+          <caret line="6" column="286" selection-start-line="6" selection-start-column="286" selection-end-line="6" selection-end-column="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc;n#Note#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windows/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/src/flowchart.symbol.subroutine.js">
+    <entry file="file://$PROJECT_DIR$/service/category.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/src/jquery-plugin.js">
+    <entry file="file://$PROJECT_DIR$/views/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/index.js">
+    <entry file="file://$PROJECT_DIR$/service/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/category.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/tags.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/notes.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="286" selection-start-line="6" selection-start-column="286" selection-end-line="6" selection-end-column="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc;n#Note#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windows/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -520,31 +1596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9119804">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/release/flowchart.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/flowchart/release/flowchart.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.518337">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/jQuery/dist/jquery.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery/dist/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10283" column="0" selection-start-line="10283" selection-start-column="0" selection-end-line="10283" selection-end-column="0" />
@@ -607,42 +1659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="433.80768">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/docs/account_manager.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4074073">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/node_modules/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41564792">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/data/version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/storage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#509#550#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,7 +1680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/jQuery/dist/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -671,9 +1691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,9 +1698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29095355">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc;n#Category#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +1705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29095355">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc;n#User#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,39 +1715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/log4js/examples/example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/log4js/examples/example-connect-logger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/log4js/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testLogger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +1726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.481482">
           <caret line="2501" column="21" selection-start-line="2501" selection-start-column="21" selection-end-line="2501" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,9 +1733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc;n#Logger#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +1740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,31 +1747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5660377">
           <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9056604">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/public/md/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10557" column="18" selection-start-line="10557" selection-start-column="18" selection-end-line="10557" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,9 +1754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,9 +1761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,31 +1768,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc;n#Tag#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/notes.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="286" selection-start-line="6" selection-start-column="286" selection-end-line="6" selection-end-column="286" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/note.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc;n#Note#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/tags.db">
+    <entry file="file://$PROJECT_DIR$/node_modules/nedb/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -856,33 +1779,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/windows/main.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-menu/src/BootstrapMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3207547">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state vertical-scroll-proportion="42.555557">
+          <caret line="290" column="26" selection-start-line="290" selection-start-column="12" selection-end-line="290" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1462975710000" expanded="true" signature="2180:2212" placeholder="..." />
+            <marker date="1462975710000" expanded="true" signature="2271:2317" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/main.js">
+    <entry file="file://$PROJECT_DIR$/views/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7777777">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-10.730769">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/note.js">
+    <entry file="file://$PROJECT_DIR$/database/tags.db">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5555553">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -895,10 +1814,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/notes.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#Note#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5427873">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        <state vertical-scroll-proportion="-5.962963">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="17.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windows/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8215223">
+          <caret line="103" column="46" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
           <folding />
         </state>
       </provider>

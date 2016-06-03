@@ -31,7 +31,8 @@ function Category() {
         },
         methods: {
             click: function (event) {
-                self.emit('onCategoryItemClick',$(event.target).data('id'));
+                var selected = $(event.target).data('id');
+                self.emit('onCategoryItemClick',selected);
 
                 $(event.target).parent().children().removeClass('active');
                 $(event.target).addClass('active');
@@ -74,6 +75,7 @@ util.inherits(Category, events.EventEmitter);
 Category.prototype.initEmitEvent = function() {
     this.emit('onCateLoad');
 }
+Category.selected = 0;
 Category.prototype.initOnEvent = function(){
     var self = this;
     var callback = function(){
@@ -85,13 +87,14 @@ Category.prototype.initOnEvent = function(){
     self.on('onCateLoad', callback ) ;
     self.on('renderCategory', this.doRender);
     self.on('onCategoryItemClick', function(id){
+        Category.selected = id;
         self.find(id,function(err,rows){
             if (rows) {
                 if (rows[0]['title'] == '最新') {
-                    note.search({});
+                    note.search({delete_at:0});
 
                 }else{
-                    note.search({category_id:id});
+                    note.search({category_id:id,delete_at:0});
                 }
             }
 

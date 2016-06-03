@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "main": "index.js",
   "dependencies": {
-    "zepto-modules": "^0.0.0"
+    "zepto-modules": "^0.0.0",
+    "vue": "",
+     "jQuery": "",
+      "nedb": "",
+       "bootstrap": "",
+       "electron-prebuilt":"v1.1.0",
+    "async": "^2.0.0-rc.5"
   }
 }

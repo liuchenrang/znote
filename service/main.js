@@ -9,7 +9,7 @@ const category = new service.Category();
 const note = new service.Note();
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
-var testEditor;
+
 
 function Main() {
     this.testEditor = {};
@@ -31,10 +31,11 @@ function Main() {
             var keyword = $(self.note_search_input_id).val();
             logger.info("main",'keyword:' + keyword);
             logger.info("main",{title:new RegExp(keyword)});
-            var search = {}
+            var search = {delete_at:0}
             if (keyword) {
-                search = {title:new RegExp(keyword)}
+                search.title  = new RegExp(keyword);
             }
+
             note.search(search,function(err,docs){
             })
         })
@@ -58,13 +59,16 @@ function Main() {
 
     }
     this.run = function () {
-        console.log("run")
+        console.log($)
+
+
         var self = this;
         $(this.note_create_markdown_id).click(function(){
             self.createNewNote();
         })
-        this.searchNode();
+        //this.searchNode();
         $(function () {
+
             self.testEditor = editormd("edmd", {
 //        toc: true,
 //        emoji: true,
@@ -120,6 +124,11 @@ function Main() {
 
                                 note.add(self.note, function (err, rows) {
                                     console.log(err, rows);
+                                    if (!err) {
+                                        self.note = rows;
+                                    }else{
+                                        logger.info('ctrl s save err');
+                                    }
                                 })
                             }
 
