@@ -12,6 +12,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/main.js" afterPath="$PROJECT_DIR$/service/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/note.js" afterPath="$PROJECT_DIR$/service/note.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows/main.html" afterPath="$PROJECT_DIR$/windows/main.html" />
+
     </list>
     <ignored path="desktop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,6 +46,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.962963">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+
               <folding />
             </state>
           </provider>
@@ -70,6 +72,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="vue.common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/vue/dist/vue.common.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,6 +87,10 @@
       </file>
       <file leaf-file-name="vue.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/vue/dist/vue.js">
+=======
+      <file leaf-file-name="notes.db" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/notes.db">
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.962963">
               <caret line="8273" column="26" selection-start-line="8273" selection-start-column="26" selection-end-line="8273" selection-end-column="26" />
@@ -185,6 +192,10 @@
         <option value="$PROJECT_DIR$/test/testLogger.js" />
         <option value="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/index.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/windows/main.html" />
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
         <option value="$PROJECT_DIR$/test/TestDb.js" />
         <option value="$PROJECT_DIR$/views/main.css" />
         <option value="$PROJECT_DIR$/models/note.js" />
@@ -195,9 +206,13 @@
         <option value="$PROJECT_DIR$/service/index.js" />
         <option value="$PROJECT_DIR$/test/testDI.js" />
         <option value="$PROJECT_DIR$/service/category.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/service/main.js" />
         <option value="$PROJECT_DIR$/windows/main.html" />
         <option value="$PROJECT_DIR$/service/note.js" />
+=======
+        <option value="$PROJECT_DIR$/views/main.css" />
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
       </list>
     </option>
   </component>
@@ -412,9 +427,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -768,6 +787,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/node_modules/vue/src/directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21774194">
@@ -777,6 +797,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.npminstall/vue/1.0.24/vue/dist/vue.common.js">
+=======
+    <entry file="file://$PROJECT_DIR$/demo/public/md/main.js">
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3608769">
           <caret line="3990" column="5" selection-start-line="3990" selection-start-column="5" selection-end-line="3990" selection-end-column="5" />
@@ -872,8 +895,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/note.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.8657895">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13315926">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+>>>>>>> f05872c2cb322cf5ea1b127c01560352140ed87d
           <folding />
         </state>
       </provider>
