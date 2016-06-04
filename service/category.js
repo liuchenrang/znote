@@ -12,8 +12,7 @@ const $ = require('jquery');
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
 
-const Note = require("../service/note").Note;
-const note = new Note();
+
 
 function Category() {
     this.container_id = '#note-cate';
@@ -66,14 +65,20 @@ function Category() {
         });
     }
     this.getSelected = function(){
-        return $(this.container_id).children('.active').data('id');
+        var id =  $(this.container_id).children('.active').data('id');
+        if (typeof(id) == 'undefined') {
+            id = 0;
+        }
+        return id;
+
     }
 }
 
 util.inherits(Category, events.EventEmitter);
 
 Category.prototype.initEmitEvent = function() {
-    this.emit('onCateLoad');
+    var self = this;
+    self.emit('onCateLoad');
 }
 Category.selected = 0;
 Category.prototype.initOnEvent = function(){
@@ -91,10 +96,10 @@ Category.prototype.initOnEvent = function(){
         self.find(id,function(err,rows){
             if (rows) {
                 if (rows[0]['title'] == '最新') {
-                    note.search({delete_at:0});
+                    di.get('service.note').search({delete_at:0});
 
                 }else{
-                    note.search({category_id:id,delete_at:0});
+                    di.get('service.note').search({category_id:id,delete_at:0});
                 }
             }
 

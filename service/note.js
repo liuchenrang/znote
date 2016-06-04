@@ -13,20 +13,21 @@ const BootstrapMenu = require('bootstrap-menu');
 
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
-
+var i = 0;
 function Note() {
     var self = this;
-
+    this.container_id = '#note-list';
+    logger.info('service.note','I:'+ (i++));
     this.storage = storage;
     events.EventEmitter.call(this);
 
     this.initOnEvent();
     this.initEmitEvent();
 
-    this.vue =  new vue({
-        el: '#note-list',
+    this.noteVue =  new vue({
+        el: self.container_id,
         data: {
-            note_items: []
+            items:[]
         },
         methods: {
             click: function (event) {
@@ -84,11 +85,11 @@ function Note() {
         });
     };
     this.search = function(data, callback){
-        logger.info("Note",'serach ' + data)
+        logger.info('service.note','serach ' + data)
         db.note.find(data).sort({ updated_at: -1 }).exec(function(err,rows){
             self.emit('onNoteFindBySearch',rows)
-            logger.info("Note",'serachResult ' + rows)
-            logger.info("Note",rows)
+            logger.info('service.note','serachResult ' + rows)
+            logger.info('service.note',rows)
 
             if (callback) {
                 callback(err,rows)
@@ -98,11 +99,9 @@ function Note() {
     this.update = function(id,data, callback){
         data.updated_at = +new Date();
         db.note.update({_id:id},data,{upsert:true,multi:false},function(err,rows){
-            logger.info('emit onNoteUpdateByKey')
+            logger.info('service.note','emit onNoteUpdateByKey')
             self.emit('onNoteUpdateByKey',rows)
             if (callback) {
-                self.vue.note_items.push(rows)
-
                 callback(err,rows)
             }
         });
@@ -112,19 +111,21 @@ function Note() {
 util.inherits(Note, events.EventEmitter);
 
 Note.prototype.initEmitEvent = function() {
-    this.emit('onNoteInit');
+    var self = this;
+    self.emit('onNoteInit');
 }
 Note.prototype.initOnEvent = function(){
     var self = this;
     var callback = function(){
-
         self.refreshList();
     }
+    var callback2 = function(docs){
+        self.emit('renderNoteList',docs);
+    };
+
     self.on('onNoteItemClick', self.onNoteItemClick)
     self.on('onNoteAdd', callback );
-    self.on('onNoteFindBySearch', function(docs){
-        self.emit('renderNoteList',docs);
-    } );
+    self.on('onNoteFindBySearch', callback2 );
     self.on('onNoteDelete', callback );
     self.on('onNoteUpdateByKey', callback );
     self.on('onNoteInit', callback ) ;
@@ -148,14 +149,14 @@ Note.list = []
 Note.prototype.doRender = function(docs){
     Note.list = docs;
     console.log('doRender',docs)
-    this.vue.note_items = docs;
+    this.noteVue.items = docs;
 }
 Note.prototype.refreshList = function(){
     var self = this;
-    logger.info('do refreshList');
+    logger.info('service.note','do refreshList');
     this.storage.note.find({delete_at:0}).sort({ updated_at: -1 }).exec( function (err, docs) {
         //this.list = docs;
-        logger.info('do renderNoteList');
+        logger.info('service.note','do renderNoteList');
         console.log(docs);
 
         self.emit('renderNoteList',docs)

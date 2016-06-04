@@ -3,19 +3,31 @@
  */
 
 const bootstrap = require("bootstrap");
-const service = require("../service");
 const models = require("../models");
-const category = new service.Category();
-const note = new service.Note();
+const service = require("../service");
+const serviceNote = new service.Note();
+const serviceCategory = new service.Category();
 const Logger = require('../utils/logger').Logger;
 const logger = new Logger();
-
+function DI(){
+    var self = this;
+    this.di = {'cc':'00'};
+    this.set = function(key,obj){
+        self.di[key] = obj;
+    }
+    this.get = function(key){
+        return self.di[key];
+    }
+}
+const di = new DI();
+di.set('service.note',serviceNote)
+di.set('service.category',serviceCategory)
 
 function Main() {
     this.testEditor = {};
     this.note = new models.Note();
-    this.category = category;
-    this.note.category_id = category.getSelected();
+    this.serviceNote = di.get('service.note');
+    this.serviceCategory = di.get('service.category');
     this.note_create_markdown_id = '#note-create-markdown';
     this.note_search_input_id = '#note-search-input';
     this.editor = new service.Editor(this.note);
@@ -36,12 +48,14 @@ function Main() {
                 search.title  = new RegExp(keyword);
             }
 
-            note.search(search,function(err,docs){
+            di.get('service.note').search(search,function(err,docs){
             })
         })
     }
     this.reloadNode = function (note) {
         this.note = note;
+        logger.info('main','reloadNode'+JSON.stringify(note))
+
         this.editor.initView(note);
 
 
@@ -53,8 +67,6 @@ function Main() {
             if (!mainWindow.testEditor.state.preview) {
                 this.testEditor.previewing();
             }
-
-
         }
 
     }
@@ -98,7 +110,7 @@ function Main() {
                 onload: function () {
                     var keyMap = {
                         "Ctrl-S": function (cm) {
-                            console.log(category.getSelected());
+                            console.log(self.serviceCategory.getSelected());
                             if ($('#note-title').val() == '') {
                                 alert("请填写标题!")
                                 return false;
@@ -106,9 +118,9 @@ function Main() {
                             self.note.title = $('#note-title').val();
                             self.note.source = self.testEditor.getMarkdown();
                             self.note.content = self.testEditor.getHTML();
-                            var category_id = category.getSelected();
+                            var category_id = self.serviceCategory.getSelected();
                             if (category_id) {
-                                self.note.category_id = category.getSelected();
+                                self.note.category_id = self.serviceCategory.getSelected();
                             }
                             self.note.type = 1;
                             self.note.tag = [];
@@ -116,13 +128,13 @@ function Main() {
                             console.log(self.note._id);
                             if (self.note._id) {
                                 logger.info('main','update id: ' + self.note._id)
-                                note.update(self.note._id, self.note, function (err, rows) {
+                                di.get('service.note').update(self.note._id, self.note, function (err, rows) {
                                     console.log(err, rows);
                                 })
                             } else {
                                 logger.info('main','add  ' + self.note.title)
 
-                                note.add(self.note, function (err, rows) {
+                                di.get('service.note').add(self.note, function (err, rows) {
                                     console.log(err, rows);
                                     if (!err) {
                                         self.note = rows;
