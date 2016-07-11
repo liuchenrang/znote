@@ -8,13 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <!--<script type="text/javascript" src="http://spiritloose.net/misc/popupmenu/popupmenu.js"></script>-->
 
     <title>EZNote</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../bower_components/editor.md/css/editormd.min.css"/>
-
+    <link rel="stylesheet" href="../node_modules/bootstrap-submenu/dist/css/bootstrap-submenu.min.css">
     <!-- Custom styles for this template -->
     <link href="../views/main.css" rel="stylesheet">
     <style>
@@ -35,7 +36,14 @@
             <div class="row ">
                 <div class="panel panel-default">
                     <!-- Default panel contents -->
-                    <div class="panel-heading">我的笔记</div>
+                    <div class="panel-heading">我的笔记<span class="pull-right cate-btn-add  btn-xs">+</span></div>
+                    <div class="row clearfix new-cate-input">
+                        <div class="col-md-12 column">
+                            <div class="form-group">
+                                <input type="email"  placeholder="类别" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
                     <ul class="list-group" id="note-cate">
                         <template v-for="item in items">
                             <li class="list-group-item" v-on:click="click" data-id="{{ item._id }}">
@@ -157,6 +165,8 @@ cond(no)->op
 </div> <!-- /container -->
 
 <script> var $ = jQuery = require("jquery"); </script>
+<script type="text/javascript" src="../node_modules/jquery-contextmenu/dist/jquery.contextMenu.js"></script>
+
 <script src="../bower_components/editor.md/editormd.js"></script>
 <!--<script src="../main.js"></script>-->
 <script>
@@ -164,8 +174,50 @@ cond(no)->op
     const mainWindow = new Main()
     mainWindow.run();
     console.log(mainWindow)
+
+    $(function(){
+//        var popup1 = new PopupMenu();
+//        popup1.add('open new window', function(target) {
+//            window.open(location.href);
+//        });
+//        popup1.add('alert', function(target) {
+//            alert('alert!');
+//        });
+//        popup1.addSeparator();
+//        popup1.add('close', function(target) {
+//            window.close();
+//        });
+//        popup1.setSize(140, 0);
+//        popup1.bind('db');
+
+    })
 </script>
+<ul id="note_menu" class="dropdown-menu">
+    <li class="dropdown-submenu">
+        <a tabindex="0">Action</a>
 
+        <ul class="dropdown-menu">
+            <li><a tabindex="0">Sub action</a></li>
+            <li class="dropdown-submenu">
+                <a tabindex="0">Another sub action</a>
 
+                <ul class="dropdown-menu">
+                    <li><a tabindex="0">Sub action</a></li>
+                    <li><a tabindex="0">Another sub action</a></li>
+                    <li><a tabindex="0">Something else here</a></li>
+                </ul>
+            </li>
+            <li><a tabindex="0">Something else here</a></li>
+            <li class="disabled"><a tabindex="-1">Disabled action</a></li>
+            <li class="dropdown-submenu">
+                <a tabindex="0">Another action</a>
+
+                <ul class="dropdown-menu">
+                    <li><a tabindex="0">Sub action</a></li>
+                    <li><a tabindex="0">Another sub action</a></li>
+                    <li><a tabindex="0">Something else here</a></li>
+                </ul>
+            </li>
+        </ul>
 </body>
 </html>

@@ -33,3 +33,18 @@
 
 }
 .note-item:hover > .note-item-btn {  display: inline; }
+
+.cate-btn-add{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.cate-btn-add:hover{
+    padding: 1px 5px;
+    background-color: #79b7e7;
+    border-radius: 3px;
+}
+.new-cate-input{
+    margin-top:15px;
+}
