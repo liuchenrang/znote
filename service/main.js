@@ -1,17 +1,9 @@
 /**
  * Created by XingHuo on 16/5/14.
  */
-
-const bootstrap = require("bootstrap");
-const models = require("../models");
-const service = require("../service");
-const serviceNote = new service.Note();
-const serviceCategory = new service.Category();
-const Logger = require('../utils/logger').Logger;
-const logger = new Logger();
 function DI(){
     var self = this;
-    this.di = {'cc':'00'};
+    this.di = {};
     this.set = function(key,obj){
         self.di[key] = obj;
     }
@@ -19,7 +11,15 @@ function DI(){
         return self.di[key];
     }
 }
-const di = new DI();
+window.di = new DI();
+const bootstrap = require("bootstrap");
+const models = require("../models");
+const service = require("../service");
+const serviceNote = new service.Note();
+const serviceCategory = new service.Category();
+const Logger = require('../utils/logger').Logger;
+const logger = new Logger();
+
 di.set('service.note',serviceNote)
 di.set('service.category',serviceCategory)
 
@@ -36,6 +36,9 @@ function Main() {
         this.note = new models.Note();
         console.log(note);
         this.reloadNode(this.note);
+    }
+    this.createCate = function(){
+
     }
     this.searchNode = function () {
         var self = this;
@@ -75,6 +78,22 @@ function Main() {
 
 
         var self = this;
+        $('.new-cate-input').keydown(function(event){
+            if ( event.which == 13 ) {
+                alert(1);
+
+                event.preventDefault();
+            }
+        })
+        $('#cate-btn-add').click(function(){
+            if ($('.new-cate-input').hasClass('hide')) {
+                $('.new-cate-input').removeClass('hide').addClass('show');
+            }else{
+                $('.new-cate-input').removeClass('show').addClass('hide');
+
+            }
+        })
+
         $(this.note_create_markdown_id).click(function(){
             self.createNewNote();
         })
